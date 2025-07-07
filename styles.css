@@ -56,6 +56,14 @@ body, html {
     font-weight: 600;
 }
 
+input {
+    position: relative;
+    height: 30px;
+    border: none;
+    border-radius: 120px;
+    width: 30vw;
+}
+
 button {
     margin: 20px;
     border: none;
