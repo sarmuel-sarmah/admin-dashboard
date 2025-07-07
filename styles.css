@@ -78,3 +78,27 @@ button {
     font-weight: 600;
     color: white;
 }
+
+.main-content{
+    grid-area: 2 / 2 / 5 / 3;
+    background-color: rgb(233, 230, 230);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    background-color: white;
+    border: none;
+    text-align: left;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
