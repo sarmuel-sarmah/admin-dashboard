@@ -7,7 +7,7 @@ body, html {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 0.75fr 1fr 1fr 1fr;
-    border: 2px solid white;
+    border: none;
     margin-left: 150px;
     height: 100vh;
     width: 80vw;
@@ -19,6 +19,8 @@ body, html {
     padding: 20px;
     font-size: 20px;
     font-weight: 900;
+    background-color: rgb(119, 119, 217);
+    color: white;
 }
 
 .social {
@@ -33,5 +35,37 @@ body, html {
 }
 
 .header {
-    border: 1px solid white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(197, 184, 184);
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    margin: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 173);
+    font-weight: 600;
+    color: white;
 }
