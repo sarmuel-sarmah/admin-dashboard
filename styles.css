@@ -22,6 +22,12 @@ body, html {
     color: white;
 }
 
+.dash {
+    display: flex;
+    font-size: 30px;
+    gap: 8px;
+}
+
 .social {
     display: grid;
     gap: 20px;
@@ -37,20 +43,24 @@ body, html {
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: white;
+    margin: 30px;
+    margin-left: 50px;
 }
 
 .header-top{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.searcher {
+    color: rgb(0, 0, 0);
 }
 
 .header-bottom{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -62,6 +72,12 @@ input {
     border-radius: 120px;
     width: 30vw;
     background-color: rgb(233, 230, 230);
+    margin-left: 0;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
 }
 
 button {
@@ -102,6 +118,7 @@ button {
     margin: 10px;
     border-radius: 15px;
     padding: 10px;
+    border-left: 10px solid rgb(232, 170, 37);
 }
 
 .announcements {
@@ -122,4 +139,5 @@ button {
     margin: 10px;
     border-radius: 15px;
     padding: 10px;
+    margin-bottom: 50px;
 }
