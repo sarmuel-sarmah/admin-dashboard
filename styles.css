@@ -28,6 +28,19 @@ body, html {
     gap: 8px;
 }
 
+img.dash{
+    filter: brightness(0) invert(1);
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+img.icon{
+    filter: brightness(0) invert(1);
+}
+
 .social {
     display: grid;
     gap: 20px;
