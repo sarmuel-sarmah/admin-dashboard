@@ -71,6 +71,16 @@ img.icon{
     color: rgb(0, 0, 0);
 }
 
+.profile-pic {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.morgan {
+    margin-top: 10px;
+}
+
 .header-bottom{
     display: flex;
     justify-content: space-between;
