@@ -141,6 +141,12 @@ button {
     margin: 10px;
 }
 
+.project-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
 .announce {
     grid-area: 1 / 2 / 2 / 2;
     font-size: 20px;
