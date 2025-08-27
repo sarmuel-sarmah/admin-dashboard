@@ -2,10 +2,12 @@
 
 ![dashboard-project](image.png)
 
-credits to the owners of the images used here
+* A live demo is found [here](https://sarmuel-sarmah.github.io/admin-dashboard/)
 
-**Kushal Mistri** on Unsplash  
+## credits to the owners of the images used here
 
-**The Creative** Idea on Unsplash  
+1. **Kushal Mistri** on Unsplash  
 
-**N. Merlo** on Unsplash  
+1. **The Creative** Idea on Unsplash  
+
+1. **N. Merlo** on Unsplash  
